@@ -45,7 +45,7 @@ const Contact = () => {
             <span className="text-sm text-primary font-medium">Get In Touch</span>
           </div>
           <h2 className="text-4xl md:text-6xl font-display font-bold mb-6">
-            Let's <span className="gradient-text bg-[#000a00]/0 text-slate-50">Connect</span>
+            Let's <span className="gradient-text text-slate-50 bg-black/0">Connect</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Ready to start your next project? We'd love to hear from you.
