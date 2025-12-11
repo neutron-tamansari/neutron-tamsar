@@ -46,10 +46,8 @@ const About = () => {
             Kenalan Yuk! <span className="text-primary">😊</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
-            NEUTRON Bandung 2 adalah kantor cabang NEUTRON yang ke-2 di Bandung. NEUTRON Bandung 2 terletak di Jl. Buah Batu No. 253, Lengkong, Bandung. 
-
-NEUTRON Bandung 2 memiliki berbagai program terbaik yang bertujuan untuk memberikan hasil terbaik bagi siswa. Selain itu, jajaran pengajar dan staf NEUTRON Bandung 2 merupakan figur-figur yang memiliki kompetensi tinggi dalam setiap bidang mereka. 
-Kantor cabang ini juga memiliki fasilitas yang lengkap sehingga dapat menunjang proses belajar-mengajar dan memberikan hasil yang terbaik.
+            NEUTRON Bandung 2 adalah kantor cabang NEUTRON yang ke-2 di Bandung. NEUTRON Bandung 2 terletak di Jl. Buah Batu No. 253, Lengkong, Bandung.<br>
+NEUTRON Bandung 2 memiliki berbagai program terbaik yang bertujuan untuk memberikan hasil terbaik bagi siswa. Selain itu, jajaran pengajar dan staf NEUTRON Bandung 2 merupakan figur-figur yang memiliki kompetensi tinggi dalam setiap bidang mereka.<br>Kantor cabang ini juga memiliki fasilitas yang lengkap sehingga dapat menunjang proses belajar-mengajar dan memberikan hasil yang terbaik.
           </p>
         </motion.div>
 
