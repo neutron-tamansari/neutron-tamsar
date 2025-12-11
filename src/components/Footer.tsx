@@ -22,12 +22,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="text-2xl font-display font-bold mb-4">
-              <span className="gradient-text bg-muted text-primary-foreground">NEUTRON</span>
+              <span className="text-accent ml-1">NEUTRON</span>
               <span className="text-accent ml-1">BANDUNG-2</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Empowering businesses with cutting-edge technology solutions. 
-              We transform ideas into reality with innovation and excellence.
+              Jl. Buah Batu no.253, Kota Bandung
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => <a key={index} href={social.href} className="w-10 h-10 rounded-lg bg-muted/50 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-smooth">
@@ -52,8 +51,8 @@ const Footer = () => {
           <div>
             <h3 className="font-display font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>info@neutronbandung2.com</li>
-              <li>+62 123 4567 8900</li>
+              <li>neutronbuahbatu253@gmail.com</li>
+              <li>+62 851-7973-0339</li>
               <li>Bandung, West Java</li>
               <li>Indonesia</li>
             </ul>
