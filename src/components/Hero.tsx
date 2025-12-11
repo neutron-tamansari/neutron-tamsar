@@ -76,20 +76,11 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button 
-                size="lg" 
-                className="group bg-primary hover:bg-primary/90 text-white shadow-scrapbook"
-                onClick={() => window.open('https://wa.me/6285179730339', '_blank')}
-              >
+              <Button size="lg" className="group bg-primary hover:bg-primary/90 text-white shadow-scrapbook" onClick={() => window.open('https://wa.me/6285179730339', '_blank')}>
                 Daftar Sekarang
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-2 border-foreground/60 text-foreground hover:bg-foreground/5"
-                onClick={() => window.open('https://neutron.co.id/cabang/neutron-bandung-2', '_blank')}
-              >
+              <Button size="lg" variant="outline" className="border-2 border-foreground/60 text-foreground hover:bg-foreground/5" onClick={() => window.open('https://neutron.co.id/cabang/neutron-bandung-2', '_blank')}>
                 Lihat Program
               </Button>
             </div>
@@ -117,7 +108,7 @@ const Hero = () => {
             }} transition={{
               delay: 0.5
             }} className="text-center bg-white p-4 rounded-2xl border-2 border-foreground/20 shadow-scrapbook transform rotate-1 hover:rotate-0 transition-bounce">
-                <div className="text-3xl font-display font-bold text-primary">1.000.000+</div>
+                <div className="text-3xl font-display font-bold text-primary">1 Juta+</div>
                 <div className="text-xs text-muted-foreground">Siswa Berprestasi</div>
               </motion.div>
               <motion.div initial={{
