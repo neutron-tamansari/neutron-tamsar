@@ -12,7 +12,7 @@ const About = () => {
   const features = [{
     icon: Target,
     title: "Visi Kami",
-    description: "Menjadi lembaga bimbingan belajar terdepan yang membantu siswa meraih PTN impian."
+    description: "Menjadikan NEUTRON Yogyakarta yang terbaik di Indonesia dan merupakan pendidikan non formal yang selalu terdepan dalam perubahan yang lebih baik"
   }, {
     icon: Users,
     title: "Tim Profesional",
@@ -20,7 +20,7 @@ const About = () => {
   }, {
     icon: Award,
     title: "Prestasi Terbukti",
-    description: "Ratusan siswa berhasil masuk PTN favorit dengan nilai terbaik."
+    description: "Khusus Bandung-2 (Buah Batu) Ratusan siswa berhasil masuk PTN favorit dengan nilai terbaik."
   }, {
     icon: BookOpen,
     title: "Metode Belajar",
