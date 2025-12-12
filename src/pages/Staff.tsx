@@ -19,7 +19,7 @@ const Staff = () => {
 
   const staffMembers = [
     {
-      name: "Sugino (Om Jhin)",
+      name: "Mas Jhino (Om Jhin)",
       role: "Kepala Cabang",
       image: staffSugino,
     },
@@ -59,7 +59,7 @@ const Staff = () => {
       image: staffSugianto,
     },
     {
-      name: "Hilqi Prawesty (Mba Hilqi)",
+      name: "Hilqi Prawesty (Miss Hilqi)",
       role: "P2K",
       image: staffHilqi,
     },
