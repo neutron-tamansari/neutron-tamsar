@@ -5,7 +5,7 @@ const Footer = () => {
     href: "https://instagram.com/neutron.bandung"
   }, {
     icon: MessageCircle,
-    href: "https://wa.me/6285179730339"
+    href: "https://wa.me/6282116737845"
   }];
   return <footer className="border-t border-border/50 bg-card/30 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-12">
@@ -14,10 +14,10 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="text-2xl font-display font-bold mb-4">
               <span className="text-accent ml-1">NEUTRON</span>
-              <span className="text-accent ml-1">BANDUNG-2</span>
+              <span className="text-accent ml-1">BANDUNG-1</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Jl. Buah Batu no.253, Kota Bandung
+              Jl. Tamansari No.61, Kota Bandung
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => <a key={index} href={social.href} className="w-10 h-10 rounded-lg bg-muted/50 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-smooth">
@@ -42,8 +42,8 @@ const Footer = () => {
           <div>
             <h3 className="font-display font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>neutronbuahbatu253@gmail.com</li>
-              <li>+62 851-7973-0339</li>
+              <li>badg1.ny@gmail.com</li>
+              <li>+62 821-1673-7845</li>
               <li>Bandung, West Java</li>
               <li>Indonesia</li>
             </ul>
@@ -52,7 +52,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-border/50 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} NEUTRON BANDUNG-2. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} NEUTRON BANDUNG-1. All rights reserved.</p>
         </div>
       </div>
     </footer>;
