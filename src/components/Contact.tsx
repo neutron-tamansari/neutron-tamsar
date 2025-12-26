@@ -11,18 +11,18 @@ const Contact = () => {
   const contactInfo = [{
     icon: Mail,
     label: "Email",
-    value: "neutronbuahbatu253@gmail.com",
-    href: "mailto:neutronbuahbatu253@gmail.com"
+    value: "badg1.ny@gmail.com",
+    href: "mailto:badg1.ny@gmail.com"
   }, {
     icon: Phone,
     label: "Phone",
-    value: "+62 851-7973-0339",
-    href: "tel:+6285179730339"
+    value: "+62 821-1673-7845",
+    href: "tel:+6282116737845"
   }, {
     icon: MapPin,
     label: "Location",
-    value: "Jl. Buah Batu no.253, Kota Bandung",
-    href: "https://maps.app.goo.gl/4zkiqefHzmPHpbgj8"
+    value: "Jl. Tamansari No.61, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat",
+    href: "https://maps.app.goo.gl/RwC3b9sviFi7GU559"
   }];
   return <section id="contact" ref={ref} className="py-24 relative overflow-hidden">
       {/* Background decoration */}
