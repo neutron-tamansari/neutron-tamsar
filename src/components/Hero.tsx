@@ -26,7 +26,7 @@ const Hero = () => {
           duration: 0.8
         }}>
             <div className="mb-8">
-              <img src={logoWithName} alt="Neutron Bandung-2" className="h-16 md:h-20" />
+              <img src={logoWithName} alt="Neutron Bandung-1" className="h-16 md:h-20" />
             </div>
             
             <h1 className="text-4xl md:text-6xl font-display font-bold mb-6 text-foreground leading-tight">Langkah Pasti <br />Meraih Prestasi
@@ -80,7 +80,7 @@ const Hero = () => {
                 Daftar Sekarang
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button size="lg" variant="outline" className="border-2 border-foreground/60 text-foreground hover:bg-foreground/5" onClick={() => window.open('https://neutron.co.id/cabang/neutron-bandung-2', '_blank')}>
+              <Button size="lg" variant="outline" className="border-2 border-foreground/60 text-foreground hover:bg-foreground/5" onClick={() => window.open('https://neutron.co.id/cabang/neutron-bandung-1', '_blank')}>
                 Lihat Program
               </Button>
             </div>
@@ -139,8 +139,8 @@ const Hero = () => {
         }} className="relative">
             {/* Main polaroid */}
             <div className="relative bg-white p-4 border-3 border-foreground/80 rounded-3xl shadow-scrapbook transform rotate-2 hover:rotate-0 transition-bounce">
-              <img src={heroImage} alt="Gedung Neutron Bandung-2" className="w-full aspect-[4/3] object-cover rounded-2xl border-2 border-foreground/60" />
-              <p className="text-center mt-3 font-handwritten text-lg text-foreground">Neutron Bandung-2 ✨</p>
+              <img src={heroImage} alt="Gedung Neutron Bandung-1" className="w-full aspect-[4/3] object-cover rounded-2xl border-2 border-foreground/60" />
+              <p className="text-center mt-3 font-handwritten text-lg text-foreground">Neutron Bandung-1 ✨</p>
               
               {/* Decorative tape */}
               <div className="absolute -top-3 left-1/4 w-20 h-7 bg-red-400/50 border border-red-500/60 -rotate-12" />
